@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Plotex XY</title>
+	<meta name="description" content="Draw a function online." />
+	<meta name="keywords" content="Draw chart, online, function, equation, ploter" />
+
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/fontello.css" />
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Play:400,700|Varela&amp;subset=latin-ext" rel="stylesheet"> 
+	
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div id="headerContainer">
+			<div id="langContainer">
+				<div class="language">
+					<a href="index.html"><img src="img/PL_flag.png"/></a>
+				</div>
+				<div class="language">
+					<a href="#"><img src="img/GB_flag.png" /></a>
+				</div>
+			</div>	
+			<div id="iconContainer">
+				<i class="icon-chart-bar"></i>
+			</div>
+			<h1>Ploter XY - draw a chart of function online</h1>
+		</div>
+	</header>
+	<main>
+		<article>
+			<div id="inputContainer">
+				<header>
+					<p class="title1">Function parameters</p>
+				</header>
+				<div id="inputContLeft">
+					<label id="funLab" for="plotType">Function type:</label> 
+					<select id="plotType" name="typeSelection">
+						<option value="1">y = ax + b</option>
+						<option value="2">y = ax&sup2 + b</option>
+						<option value="3">y = ax&sup3 + b</option>
+						<option value="4">y = a*sin(x) + b</option>
+						<option value="5">y = a*cos(x) + b</option>
+						<option value="6">y = a*tan(x) + b</option>
+						<option value="7">y = a*ctg(x) + b</option>
+					</select>
+				</div>
+				<div id="inputContRight">
+					<label for="inputA">Constant a:</label>
+					<input id="inputA" type="text" />
+					<br />
+					<label for="inputB">Constant b:</label>
+					<input id="inputB" type="text" />
+					<br />
+				</div>
+				<p id="equTitle">Equation: <span id="funEquation"></span></p>
+				<p class="title2">Chart parameters</p> 
+				<label for="grid" class="paramLab">Grid:</label>	
+				<input id="grid" type="checkbox" value="on" />
+				<br />
+				<label for="maxVal" class="paramLab">Axes range min/max:</label>
+				<input id="maxVal" type="text" value="7" />
+				<div id="confirmButContainer">
+					<input class="confirmButton" type="button" value="Draw" onclick="plot()" ></input>
+				</div>
+			</div>
+			<div id="plotContainer">
+				<canvas id="plotCanvas" height="720" width="720" />
+			</div>
+		</article>
+	</main>
+	<footer>
+		<div id="footerContainer">
+			<p id="footerParagr">&copy 2018. Contact to author:<span class="conatact"> 
+				<i class="icon-mail"></i>marcin90k@interia.pl</span>				
+			</p>
+			<div id="linkContainer"> 
+				<a class="gitHubLink" href="https://github.com/Marcin90K" target="_blank"><i class="icon-github-circled"></i></a>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

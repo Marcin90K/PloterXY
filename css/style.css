@@ -1,0 +1,259 @@
+body
+{
+	background-color: #DADADA;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1
+{
+	color: #FF6600;
+	margin-top: 0px;
+	font-size: 50px;
+	font-family: 'Play', sans-serif;
+	display: inline-block;
+}
+
+#headerContainer
+{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #128870;
+	border-bottom: 2px solid #303030;
+	text-align: left;
+}
+
+#langContainer
+{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#iconContainer  
+{
+	width: 100px;
+	text-align: left;
+	padding: 10px;
+	display: inline-block;
+}
+
+#inputContainer
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;	
+	text-align: left;
+	border: 1px solid #030303;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 5px #AAAAAA;
+	-webkit-box-shadow: 3px 3px 5px 5px #AAAAAA;
+	-moz-box-shadow: 3px 3px 5px 5px #AAAAAA;
+	background-color: #DADADA;
+}
+
+#inputContLeft
+{
+	display: inline-block;
+	width: 328px;
+	padding: 10px;
+	vertical-align: top;
+}
+
+#inputContRight
+{
+	display: inline-block;
+	width: 328px;
+	padding-left: 10px;
+	text-align: center;
+} 
+
+p
+{
+	font-family: 'Varela', sans-serif;
+}
+
+p.title1
+{
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	text-decoration: underline;
+	color: #128870;
+	font-size: 30px;
+}
+
+p.title2
+{
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
+	color: #128870;
+	font-size: 24px;
+}
+
+p#equTitle
+{
+	width: 350px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #7093DB;
+	font-family: 'Concert One', cursive;
+	font-size: 25px;
+}
+
+label
+{
+	width: 300px;
+	margin-top: 10px;
+	color: #7093DB;
+	font-family: 'Concert One', cursive;
+	font-size: 25px;
+	
+}
+
+label#funLab
+{
+	
+	color: #7093DB;
+}
+
+label.paramLab
+{
+	margin: 10px;
+}
+
+input[type=text], select
+{
+	height: 32px;
+	width: 50px; 
+	color: #FF6600;
+	text-align: center;
+	font-size: 20px;
+	font-style: bold;
+	border: 1px solid #AAAAAA;
+	transition: transform 0.3s ease-in-out;
+
+}
+
+input[type=text]:hover, select:hover
+{
+	transform: scale(1.2);
+}
+
+select 
+{
+	width: 160px;
+	font-size: 18px;
+}
+
+input[type=checkbox]
+{
+	transform: scale(1.5);
+	margin: 5px;
+	transition: transform 0.3s ease-in-out;
+}
+
+input[type=checkbox]:hover
+{
+	transform: scale(1.7);
+}
+
+#funEquation
+{
+	color: #00FF00;
+	font-size: 36px;
+	font-style: bold;
+}
+
+#confirmButContainer
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input[type=button]
+{ 	
+	width: 100px;
+	height: 50px;
+	border: 1px solid #1456AD;
+	border-radius: 5px;
+	background-color: #7093DB;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	transition: transform 0.5s ease-in-out;
+}
+
+input[type=button]:hover
+{
+	background-color: #6082CA;
+	box-shadow: 3px 3px 5px 5px #AAAAAA;
+	-webkit-box-shadow: 3px 3px 5px 5px #AAAAAA;
+	-moz-box-shadow: 3px 3px 5px 5px #AAAAAA;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+canvas 
+{
+	border: 3px solid #000000;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+
+#footerContainer
+{
+	width: 100%;
+	background-color: #303030;
+	color: #FFF;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px;
+	line-height: 100%;
+}
+
+#footerContainer p
+{
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#footerParagr
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#linkContainer
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#linkContainer:hover
+{
+	background-color: #202020;
+	cursor: pointer;
+}
+
+
+
+
+
+

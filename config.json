@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ffa340a4e2c3aa6ea354787b999bced7",
+      "css": "pi-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "266d5d9adf15a61800477a5acf9a4462",
+      "css": "chart-bar",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59394,
+      "src": "fontawesome"
+    }
+  ]
+}
